@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1px solid red;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+header {
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.left {
+    background-color: green;
+    flex: 0 0 15vw;
+}
+
+.main-content {
+    background-color: skyblue;
+    flex: 1 1 auto;
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+}
